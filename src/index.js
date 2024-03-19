@@ -20,8 +20,8 @@ window.puter = (function() {
         // 'web' means the SDK is running in a 3rd-party website.
         env;
 
-        defaultAPIOrigin = 'https://api.puter.com';
-        defaultGUIOrigin = 'https://puter.com';
+        defaultAPIOrigin = 'http://localhost:5259';
+        defaultGUIOrigin = 'http://localhost:5259';
 
         // An optional callback when the user is authenticated. This can be set by the app using the SDK.
         onAuth;
